@@ -33,6 +33,13 @@ ORDER BY total_sales DESC;
 
 
 
+<img width="592" height="366" alt="Screenshot 2025-10-17 at 4 57 24 PM" src="https://github.com/user-attachments/assets/d7c2bbda-370e-44db-b5a3-1923237a4ae0" />
+
+
+
+
+
+
 
 Q2 Which products or categories are the best sellers?
 
