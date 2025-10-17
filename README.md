@@ -41,6 +41,8 @@ ORDER BY total_sales DESC;
 
 
 
+
+
 Q2 Which products or categories are the best sellers?
 
 "The best seller is beleza_saude." 
@@ -61,6 +63,16 @@ LIMIT 10;
 
 
 
+<img width="573" height="357" alt="Screenshot 2025-10-17 at 5 03 32 PM" src="https://github.com/user-attachments/assets/33b9cde7-7afb-47e9-b78f-5864cf234c70" />
+
+
+
+
+
+
+
+
+
 Q3 Which cities or states contribute the most to sales?
 "The most to sales is sao paulo, SP." 
 
@@ -77,6 +89,11 @@ WHERE o.order_status = 'delivered'
 GROUP BY 1, 2
 ORDER BY total_sales DESC
 LIMIT 10;
+
+
+<img width="573" height="361" alt="Screenshot 2025-10-17 at 5 11 41 PM" src="https://github.com/user-attachments/assets/04d59f18-7553-4a1c-bd8e-e287fcfd0483" />
+
+
 
 
 
@@ -104,8 +121,10 @@ FROM (
 
 
 
+
+
 Q5: What is the distribution of different payment methods? 
-'The percentage of credit card is 77%, boleto is 20%, voucher is 3.89%, debit card is 1.54%.
+'The percentage of credit card is 76.94%, boleto is 19.9%, voucher is 3.89%, debit card is 1.54%.
 
 ###SQL QUERY:
 
@@ -117,6 +136,11 @@ SELECT
 FROM `olist-sql-project.olist_sql_project.olist_order_payments` p
 GROUP BY 1
 ORDER BY num_orders DESC;
+
+
+
+<img width="587" height="349" alt="Screenshot 2025-10-17 at 5 28 06 PM" src="https://github.com/user-attachments/assets/ba1290b3-c420-49ea-8078-3343c0bfc668" />
+
 
 
 
@@ -138,6 +162,7 @@ ORDER BY month;
 
 
 
+<img width="582" height="345" alt="Screenshot 2025-10-17 at 5 33 44 PM" src="https://github.com/user-attachments/assets/09c7b71c-6c74-4d09-a157-8b5d149058b2" />
 
 
 
